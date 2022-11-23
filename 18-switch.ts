@@ -1,12 +1,16 @@
-// loops
-
-// For Loop
-
-var i = 0;
-for(i=0;i<=10;i++){
-
+// Switch
+var key = "FAZLUR RAHMAN"
+switch (key) {
+    case "Rahman":
+       console.log(key);
+       console.log("Key Matched");
+    break;
+    case "Fazlur":
+        console.log(key);
+        console.log("Key Matched");
+    break;
+    default:
+        console.log("No Name Matched for "+key);
+    break;
 }
 
-// while Loop
-// do while loop
-// ForEach Loop

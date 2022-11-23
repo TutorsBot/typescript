@@ -41,4 +41,4 @@ var sampArr : number[] = [2, 5, 7, 9, 11, 13, 15, 17, 19, 21]
 // }
 
 // foreach
-sampArr.forEach((item)=>console.log(item))
+// sampArr.forEach((item)=>console.log(item))
