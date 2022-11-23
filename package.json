@@ -1,0 +1,20 @@
+{
+  "name": "ts-class",
+  "version": "2.0.0",
+  "description": "sample project for typescript class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScripts",
+    "TutorsBot"
+  ],
+  "author": "Fazlur",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "ts-node": "^10.9.1"
+  }
+}
