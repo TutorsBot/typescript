@@ -49,14 +49,34 @@ interface userObj {
 // console.log(username);
 // console.log(designation);
 
-function sampObj(userObject : userObj){
-    console.log(userObject);
+// function sampObj(userObject : userObj){
+//     console.log(userObject);
+// }
+// sampObj({
+//         username: "Fazlur Rahman",
+//         designation : "Full Stack Developer",
+//         displayFuncs : function displayFunc(){
+//             console.log(this.username)
+//         }
+// });
+
+// class User implements userObj{
+//     username : string = "";
+//     designation: String = "";
+//     displayFuncs(){
+//         console.log("sample")
+//     }
+// }
+
+class User{
+    username : string = "";
+    designation: String = "";
+    department : String = "";
+    displayFuncs(){
+        console.log("sample")
+    }
 }
-sampObj({
-        username: "Fazlur Rahman",
-        designation : "Full Stack Developer",
-        displayFuncs : function displayFunc(){
-            console.log(this.username)
-        }
-});
+
+var sampleUser : userObj = new User();
+console.log(sampleUser);
 
