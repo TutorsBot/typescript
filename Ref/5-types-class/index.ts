@@ -94,15 +94,15 @@ console.log(Fazlur.empid)
 // cwag.id;
 // cwag.id = 80;
 
-class StaticFunc {
-   static printTwo(){
-    console.log('2')
-   }
-}
-StaticFunc.printTwo();
+// class StaticFunc {
+//    static printTwo(){
+//     console.log('2')
+//    }
+// }
+// StaticFunc.printTwo();
 
 
 
 
 
-var username : string = "Fazlur"
+// var username : string = "Fazlur"
